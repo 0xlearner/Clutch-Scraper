@@ -86,12 +86,6 @@ Through this project, I've gained a deeper appreciation for Rust's strengths in 
 
 Clone the repository:
 
-```bash
-git clone https://github.com/yourusername/clutch-scraper.git
-cd clutch-scraper
-cargo build --release
-cargo run --release```
-
 Configuration
 Edit the config.toml file to specify:
 
@@ -99,3 +93,9 @@ Base URL for scraping
 Proxy file path
 Logging settings
 Retry and timeout configurations
+
+```bash
+git clone https://github.com/yourusername/clutch-scraper.git
+cd clutch-scraper
+cargo build --release
+cargo run --release```
