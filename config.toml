@@ -1,0 +1,21 @@
+# Base settings
+base_url = "https://clutch.co"
+start_path = "/developers/rust"
+
+# Retry settings
+max_retries = 3
+retry_delay = 5
+
+# Proxy settings
+[proxy]
+file = "proxy.txt"
+switch_delay = 2
+max_retries = 2
+request_timeout = 30
+concurrent_validations = 5
+
+# Logging settings
+[logging]
+level = "debug"
+directory = "logs"
+filename = "scraper.log"
