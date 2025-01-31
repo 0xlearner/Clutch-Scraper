@@ -90,7 +90,8 @@ Clone the repository:
 git clone https://github.com/yourusername/clutch-scraper.git
 cd clutch-scraper
 cargo build --release
-cargo run --release```
+cargo run --release
+```
 
 
 ### Configuration
